@@ -1,0 +1,192 @@
+ 
+ Body{
+   margin: 0px;
+   padding:0px;
+   background-color: #c6ecd9; 
+    }
+
+header footer{
+      background-color: #d9f2e6;
+    }
+ .flex-container {
+    width:100%;
+    display: flex;
+    flex-direction: row;
+    font-size: 30px;
+    text-align: center;
+    }
+  
+  .flex-item-left , .flex-item-right {
+    background-color:#d9f2e6;
+    padding: 10px;
+    flex: 50%;
+  }
+  
+  /* Responsive layout - makes a one column-layout instead of two-column layout for flex-container*/
+  @media (max-width: 600px) {
+    .flex-container {
+      flex-direction: column;
+    }
+  }
+  /*for header */
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color:#d9f2e6;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: #206040;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover {
+    background-color: #40bf80;
+  }
+/*for header */
+
+/*index html main */
+ #personal {               /*for personal picture in index html page*/
+    width:300px;
+    height:300px;
+  }
+  .container-fluid{
+    margin-top:10%;
+    margin-bottom: 10%;
+    align-items: center;
+    background-color: #ecf9f2;
+    width:40%;
+    height:80%;
+    justify-items: center;
+    justify-content: center;
+    padding:5%;
+  }
+  /*end index html css*/
+
+  /*footer container css*/
+  .grid-container {
+    display: grid;
+    width:100%;
+    height:18%;
+    background-color:#d9f2e6;
+    justify-content: center;
+    font-size: 20px;
+  }
+  .grid-container > div {
+    text-align: center;
+    padding: 5% 4%;
+    font-size: 20px;
+    text-justify:center;
+  }
+  /*end footer css*/
+  
+/* for index container background */
+  #sec {
+   background-color: #c6ecd9; 
+     }
+
+/* end of it */
+
+
+  /*css for projects and about me */
+  .container{
+    margin:7%;
+    align-items: center;
+    justify-items: center;
+    justify-content: center;
+    padding:3%;
+    width:100%;
+    height:100%;   
+    background-color: #d9f2e6;
+  }
+  .row {
+    display: -ms-flexbox; /* IE10 */
+    display: flex;
+    -ms-flex-wrap: wrap; /* IE10 */
+    flex-wrap: wrap;
+    padding: 1% 2%;
+  }
+  
+  /* Create 2 equal columns that sits next to each other */
+  .column {
+    -ms-flex: 50%; /* IE10 */
+    flex: 50%;
+    max-width: 50%;
+    padding: 1% 2%;
+  }
+  
+  .column img {
+    margin-top: 3%;
+    vertical-align: middle;
+    width: 100%;
+  }
+  
+  /* Responsive layout - makes a  column-layout instead of 2 columns */
+  @media screen and (max-width: 600px) {
+    .column {
+      -ms-flex: 100%;
+      flex:100%;
+      max-width: 100%;
+    }
+      }
+
+  .column > iframe {
+    margin-top:3%;
+    height:98.5%;
+    width:100%;
+  }
+/* end of project show css*/  
+  /* styling about page  */
+  #brief{
+    margin-top:4%;
+    
+  }
+  
+   #insta {
+    margin-top:3%;
+    height:50%;
+    width:100%;
+  }
+
+  #space{
+    margin-top:5%;
+  }
+
+  /*icons coloring classes*/
+  .fa-html5 {color:  #ff471a;
+  }
+  .fa-css3-alt{
+    
+ color: #3333ff;
+  }
+
+  .fa-bootstrap{
+    
+   color: #6600cc;
+  }
+
+  .fa-language{
+    color: #4d0026;
+  }
+
+  .fa-hands-helping{
+    color:#004d00;
+  }
+
+  .fa-github{
+    color:#000;
+  }
+
+  .fa-linkedin{
+    color:#003366;
+  }
+  /*finished icons coloring*/
